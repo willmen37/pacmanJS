@@ -1,4 +1,6 @@
-  
+.center{
+    align: center;
+}
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -13,21 +15,21 @@
 }
 
 .pac-dot {
-    background-color: green;   
-    border: 5px solid white;
+    background-color: brown;   
+    border: 5px solid tan;
     box-sizing: border-box;
 }
 
 .wall {
-    background-color: blue;
+    background-color:  lightseagreen;
 }
 
 .power-pellet {
-    background-color: green;
+    background-color: rgba(215, 218, 32, 0.609);
     border-radius: 10px;
 }
 .pac-man {
-    background-color: yellow;
+    background-color: blue;
     border-radius: 10px;
 }
 
@@ -52,7 +54,7 @@
 }
 
 .scared-ghost {
-    background-color: aquamarine;
+    background-color: blue;
     border: 0px;
 }
 
